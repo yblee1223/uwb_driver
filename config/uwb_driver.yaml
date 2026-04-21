@@ -1,0 +1,8 @@
+uwb_serial_node:
+  ros__parameters:
+    port: "/dev/ttyUWB"
+    baud: 115200
+    topic: "/uwb/range"
+    frame_id: "uwb_link"
+    init_cmds: [""]
+    read_timeout: 1.0
