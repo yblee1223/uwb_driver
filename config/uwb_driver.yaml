@@ -1,6 +1,6 @@
 uwb_serial_node:
   ros__parameters:
-    port: "/dev/ttyUWB"
+    port: "/dev/ttyHS2"
     baud: 115200
     topic: "/uwb/range"
     frame_id: "uwb_link"
