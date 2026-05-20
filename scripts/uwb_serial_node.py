@@ -24,7 +24,7 @@ class UwbSerialNode(Node):
     def __init__(self):
         super().__init__('uwb_serial_node')
 
-        self.declare_parameter('port',         '/dev/ttyACM0')
+        self.declare_parameter('port',         '/dev/ttyHS2')
         self.declare_parameter('baud',         115200)
         self.declare_parameter('topic',        '/uwb/range')
         self.declare_parameter('frame_id',     'uwb_link')
